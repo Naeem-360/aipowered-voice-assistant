@@ -1,25 +1,49 @@
-# ai powered-voice-assistant
+# AI Assistant
 
-This is a Python-based voice assistant bot that can perform various tasks using voice or text commands.
-The assistant can handle tasks like opening applications, performing web searches, playing music, and more. 
-It also integrates with OpenAI's GPT for advanced conversational abilities.
+This is an AI-powered voice assistant that can perform various tasks like searching the web, playing music, managing system settings, and chatting with GPT.
 
-Features
-Switch between voice and text input
-Perform tasks such as playing songs, opening applications, controlling system volume, and more
-Access information from Wikipedia and Google
-Take screenshots and save them to a folder
-Chat with GPT-based AI for personalized responses
-Control PC functions like shutdown, restart, and open apps
+## How to Download
 
-Requirements
-Python 3.x
-Install dependencies with: pip install -r requirements.txt
+You can download the source code from your GitHub repository by following these steps:
 
-You can type or say commands like:
+### Using Git (Recommended)
+```sh
+# Clone the repository
+git clone https://github.com//Naeem-360/aipowered-voice-assistant
 
-"open chrome"
-"play [song name]"
-"what is the time in [location]?"
-"help" to see all the available commands
-To exit the assistant, type or say "quit".
+# Navigate into the project directory
+cd aipowered-voice-assistant
+```
+
+### Download as ZIP
+1. Go to your GitHub repository: `https://github.com//Naeem-360/aipowered-voice-assistant`
+2. Click on the **"Code"** button.
+3. Select **"Download ZIP"**.
+4. Extract the ZIP file to your desired location.
+
+## Requirements
+
+Before running the assistant, install the necessary dependencies:
+
+### Install Python (if not installed)
+Ensure you have Python 3.7 or later installed. You can download it from [Python's official website](https://www.python.org/downloads/).
+
+### Install Dependencies
+Navigate to the project folder and run:
+```sh
+pip install -r requirements.txt
+```
+
+### Required Libraries
+If `requirements.txt` is missing, install these manually:
+```sh
+pip install pyttsx3 pywhatkit datetime wikipedia webbrowser requests bs4 noisereduce pyautogui pytz timezonefinder geopy speechrecognition fuzzywuzzy openai python-dotenv psutil
+```
+
+## Running the Assistant
+To start the AI assistant, run:
+```sh
+python main.py
+```
+
+Enjoy using your AI assistant! 🚀
