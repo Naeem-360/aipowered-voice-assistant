@@ -9,7 +9,7 @@ You can download the source code from your GitHub repository by following these 
 ### Using Git (Recommended)
 ```sh
 # Clone the repository
-git clone https://github.com//Naeem-360/aipowered-voice-assistant
+git clone https://github.com/Naeem-360/aipowered-voice-assistant.git
 
 # Navigate into the project directory
 cd aipowered-voice-assistant
